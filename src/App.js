@@ -1,9 +1,9 @@
-function App() {
+import Routes from "./routes";
+
+export default function App() {
   return (
-    <div>
-      <h1>Rotas com React JS</h1>
-    </div>
+      <div>
+        <Routes/>
+      </div>
   );
 }
-
-export default App;
